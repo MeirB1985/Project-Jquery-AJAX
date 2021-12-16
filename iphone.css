@@ -1,0 +1,17 @@
+#searchButton {
+    border: 1px solid green;
+    height: 30px;
+    width: 60px;
+    color: green;
+    border-radius: 3px;
+    background-color: white;
+    float: left;
+}
+
+#input {
+    border: 1px solid lightgray;
+    height: 30px;
+    width: 150px;
+    border-radius: 3px;
+    float: left;
+  }

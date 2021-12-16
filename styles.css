@@ -1,0 +1,220 @@
+.parallax {
+  background-image: url("cryptoBackground.png");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  background-color: lightgray;
+  border-bottom: 1px solid black;
+  height: 90px;
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+#cryptoniteImg {
+  float: right;
+  width: 89px;
+  height: 89px;
+}
+#myImage {
+  width: 200px;
+}
+#about {
+  text-align: center;
+}
+#aboutDiv {
+  background-color: white;
+  width: 600px;
+  margin:auto ;
+}
+#home {
+    display: flex;
+    flex-flow: wrap;
+    align-items: flex-start;
+    justify-content:center;
+    margin-top: 40px;
+}
+/* .modal-content {
+  display: flex;
+  flex-flow: wrap;
+  align-items: flex-start;
+  justify-content:center;
+  margin: auto;
+} */
+
+.divStyle {
+  border: 1px solid lightgray;
+  background-color: white;
+  height: 170px;
+  width: 230px;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+#divSymbol {
+  font-size: x-large;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.divId {
+  font-size: small;
+}
+
+/* עיצוב כפתורים */
+#homeButton {
+  color: #2196F3;
+  border-radius: 3px;
+  background-color: white;
+  border: 1px solid white;
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+}
+#liveReportsButton {
+  color: #2196F3;
+  border-radius: 3px;
+  background-color: white;
+  border: 1px solid white;
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+}
+#aboutButton {
+  color: #2196F3;
+  border-radius: 3px;
+  background-color: white;
+  border: 1px solid white;
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+}
+
+#input {
+  border: 1px solid lightgray;
+  height: 30px;
+  width: 250px;
+  border-radius: 3px;
+  float: right;
+}
+
+#searchButton {
+  border: 1px solid green;
+  height: 30px;
+  width: 60px;
+  color: green;
+  border-radius: 3px;
+  background-color: white;
+  float: right;
+}
+#moreInfoButton {
+  border: 1px solid #2196F3;
+  height: 30px;
+  width: 80px;
+  padding-top: 4px;
+  padding-left: 5px;
+  background-color: #2196F3;
+  color: white;
+  border-radius: 3px;
+  font-size: small;
+}
+.content{
+  display: none;
+  border: 1px solid lightgray;
+  margin-right: 20px;
+  font-size: small;
+}
+
+/* Toggle Button Style */
+.switch {
+  position: relative;
+  float: right;
+  width: 60px;
+  height: 34px;
+}
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: #2196F3;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+
+  display: flex;
+  flex-flow: wrap;
+  align-items: flex-start;
+  justify-content:center;
+}
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
